@@ -4,7 +4,11 @@
 #this program will also display the data inputted by the user
 
 #ask the user for their name, dream job, hobby, personality type, and motto
-
+name = input("Enter your name: ")
+dream_job = input("Enter your dream job: ")
+hobby = input("Enter your hobby: ")
+personality_type = input("Enter your personality type: ")
+motto = input("Enter your motto: ")
 
 #add a message for the user
 
