@@ -5,6 +5,8 @@
 
 #import modules
 import pyfiglet
+import colorama
+colorama.init(autoreset=True)
 
 #ask the user for their name, dream job, hobby, personality type, and motto
 name = input("Enter your name: ")
@@ -26,6 +28,12 @@ message = (pyfiglet.figlet_format(message,font='digital'))
 
 
 #define the font color of the variables
+name = (colorama.Fore.LIGHTMAGENTA_EX + name)
+dream_job = (colorama.Fore.LIGHTCYAN_EX + dream_job)
+hobby = (colorama.Fore.LIGHTYELLOW_EX + hobby)
+personality_type = (colorama.Fore.LIGHTCYAN_EX + personality_type)
+motto = (colorama.Fore.LIGHTMAGENTA_EX + motto)
+message = (colorama.Fore.LIGHTBLUE_EX + message)
 
 
 #display the data
