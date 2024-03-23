@@ -11,7 +11,7 @@ personality_type = input("Enter your personality type: ")
 motto = input("Enter your motto: ")
 
 #add a message for the user
-
+message = ("You will reach your dreams, Believe it!")
 
 #define the font style of the variables
 
